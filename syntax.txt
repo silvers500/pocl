@@ -22,7 +22,7 @@ space.overide.destroy() //like space.overide.safe but destroys that portion
 safe.check() //checks location safety
 safe.check.living() //checks location for life and what types
 safe.check.entity() //checks location for entitys
-safe,check.electronics() //checks location for electronics and what types
+safe.check.electronics() //checks location for electronics and what types
 safe.check.energy() //checks location for energy and what types
 safe.check.all() //checks location for anything and everything
 safe.check.time() //checks locations current time
@@ -51,12 +51,16 @@ bool() //boolean
 
 def name() {} //define
 deftype name() {} //define type
-function name{} //define a function
+function name() {} //define a function
 
 list name()
 
+import //import a local file or subfile
+include //include a global library
+
 return
-print()
+print() //prints to output
+input() //gets user input
 
 if //ends with a colon
 elif //ends with a colon
@@ -89,3 +93,10 @@ name = 1 //declares a variable or redeclares a variable
 1~[bin!()] //binary data
 1~[TRUE] //bool true
 1~[FALSE] //bool false
+
+@~[now] //current time
+@~[last] //last location
+@~[log] //log I/O
+
+$~[min] //minimize trace
+$~[wall] //locks a dimensions
