@@ -1,0 +1,6 @@
+name: POCL / Portal Operations Control Language
+type: interpreted
+version: V1.0.0
+for: roleplays that mess with dimensions
+
+whitelist and blacklist are only oneway

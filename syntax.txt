@@ -1,0 +1,61 @@
+//comments
+
+portal.open() //opens the portal
+portal.close() //closes the portal
+portal.reload() //reloads the portal
+portal.restart() //restarts the portal
+portal.shutdown() //turns the portal off
+
+loco.set() //sets location
+loco.timeset() //sets time & date
+loco.blacklist() //blacklists a location
+loco.whitelist() //whitelists a location
+loco.fullset() //allows you to set specifics like time & date
+
+space.overide() //allows for you to set destination in an object
+space.overide.safe() //like space.overide but moves a portion of that object
+space.overide.destroy() //like space.overide.safe but destroys that portion
+
+safe.check() //checks location safety
+safe.check.living() //checks location for life and what types
+safe.check.entity() //checks location for entitys
+safe,check.electronics() //checks location for electronics and what types
+safe.check.energy() //checks location for energy and what types
+safe.check.all() //checks location for anything and everything
+safe.check.time() //checks locations current time
+safe.check.date() //checks locations current date
+safe.check.datetime() //checks locations current date & time
+safe.check.structure() //checks for a structure the same or similar to the one given
+safe.check.makeup() //checks for an atomic makeup or dna the same or similar to whats given
+//there's also esafe which is the same as safe but enfoeces safety
+
+resolve.basic() //atempts to resolve small issues
+resolve.mid() //atempts to resolve small to mid issues
+resolve.extensive() //atempts to resolve all issues
+
+table.create("") //creates a table
+table.destroy("") //destroys a table
+table.add(sheet="", name="", data="") //adds a table
+table.addtable(sheet="", name="") //adds a table
+table.deltable(sheet="", table="") //deletes a table
+
+return
+print()
+
+== //equal to
++ //add
+++ //increment up
+-- //increment down
+< //less than
+> //greater than
+<= //less than or equal to
+>= //greater than or equal to
+!+ //mult
+!~ //div
+
+name = 1 //declares a variable or redeclares a variable
+[0~9] //from one number to another
+1~[temp()] //temp data
+1~[bin!()] //binary data
+1~[TRUE] //bool true
+1~[FALSE] //bool false
