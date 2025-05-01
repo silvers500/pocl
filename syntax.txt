@@ -6,6 +6,9 @@ portal.reload() //reloads the portal
 portal.restart() //restarts the portal
 portal.shutdown() //turns the portal off
 
+portal.status() //gets portal status
+portal.build.info() //gets part info
+
 loco.set() //sets location
 loco.timeset() //sets time & date
 loco.blacklist() //blacklists a location
@@ -39,8 +42,35 @@ table.add(sheet="", name="", data="") //adds a table
 table.addtable(sheet="", name="") //adds a table
 table.deltable(sheet="", table="") //deletes a table
 
+int() //integer
+str() //string
+char() //character
+float() //floating point
+double() //double floating point
+bool() //boolean
+
+def name() {} //define
+deftype name() {} //define type
+function name{} //define a function
+
+list name()
+
 return
 print()
+
+if //ends with a colon
+elif //ends with a colon
+else:
+try //ends with a colon
+catch
+
+and
+nand
+not
+or
+xor
+nor
+xnor
 
 == //equal to
 + //add
