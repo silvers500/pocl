@@ -3,4 +3,6 @@ type: interpreted
 version: V1.2.0
 for: roleplays that mess with dimensions
 
-whitelist and blacklist are only oneway
+blacklist only block your portal from a location 
+
+whitelist does the exact opposite of blacklist 
