@@ -11,7 +11,7 @@ portal.build.info() //gets part info
 
 loco.set() //sets location
 loco.timeset() //sets time & date
-loco.blacklist() //blacklists a location
+loco.blacklist() //blacklists a location from your portal 
 loco.whitelist() //whitelists a location
 loco.fullset() //allows you to set specifics like time & date
 
@@ -99,4 +99,4 @@ name = 1 //declares a variable or redeclares a variable
 @~[log] //log I/O
 
 $~[min] //minimize trace
-$~[wall] //locks a dimensions
+$~[wall] //completely seals a dimension 
